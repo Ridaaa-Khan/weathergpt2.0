@@ -2,6 +2,7 @@ import os
 import re
 import time
 from datetime import date
+from app.services.followups import suggest_follow_ups
 from pathlib import Path
 from typing import Any, Optional
 
